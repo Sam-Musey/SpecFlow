@@ -47,7 +47,7 @@ Accessing the `ScenarioContext` is done like in [normal bindings](#in-bindings)
 
 ### Migrating from ScenarioContext.Current
 
-With SpecFlow 3.0, we marked ScenarioContext.Current obsolete, to make clear that you that you should avoid using these properties in future. The reason for moving away from these properties is that they do not work when running scenarios in parallel.
+With SpecFlow 3.0, we marked ScenarioContext.Current obsolete, to make clear that you should avoid using these properties in future. The reason for moving away from these properties is that they do not work when running scenarios in parallel.
 
 So how do you now access ScenarioContext?
 
